@@ -171,6 +171,7 @@ def search(entries):
     while (True):
         found = False
 
+        print("\n")
         outputLine("View")
 
         print("\n1. All")
@@ -399,6 +400,7 @@ print("Hybrids: " + str(len(hybrids)))
 
 #Command Line UI 
 while (True):
+    print("\n")
     outputLine("Home")
     print("\n1. View Entries")
     print("2. Matchmake")
